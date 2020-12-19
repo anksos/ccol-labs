@@ -1,0 +1,9 @@
+# Week 4 - Enable Calico eBPF Dataplane
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kubernetes-services-endpoint
+  namespace: tigera-operator
+data:
+  KUBERNETES_SERVICE_HOST: "198.19.0.1"
+  KUBERNETES_SERVICE_PORT: "6443"
