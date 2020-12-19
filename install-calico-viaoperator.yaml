@@ -1,3 +1,4 @@
+# Week 1 - Installing Calico for the Lab
 apiVersion: operator.tigera.io/v1
 kind: Installation
 metadata:
